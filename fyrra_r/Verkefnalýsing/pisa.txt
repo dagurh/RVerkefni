@@ -1,0 +1,70 @@
+Hluti 1 - Gagnamöndl (30 %)
+Síðasti séns til að fá aðstoð við þennan hluta er 21. febrúar.
+
+a) Lesið gagnasafnið inn í R/RStudio og geymið í hlut sem ber upphafsstafi þeirra sem verkefnið vinna (ef Gréta Halldórsdóttir og Sigurður Karl Jónsson eru að vinna saman skulu þau nefna hlutinn gs).
+
+b)
+Notið filter() skipunina til að velja niðurstöður til og með árinu 2003, þ.e. fjarlægið niðurstöður frá árinu 2000.
+
+c)
+Búið til nýja breytu í gagnarammanum ykkar sem inniheldur meðaleinkunn nemenda í stærðfræði, lestri og vísindum.
+
+d)
+Sýnið í töflu fjölda svara frá hverju og einu landi. 
+
+e)
+Veljið niðurstöður memenda frá Íslandi ásamt tveimur örðum löndum að ykkar vali til að vinna áfram með. Yfirskrifið gagnaramman í b) lið með niðurstöðum frá þessum þremur löndum. Þið eigið að nota þennan gagnaramma það sem eftir er verkefnisins.
+
+f)
+Kannið hvort að þær breytur sem þið munið nota í verkefninu séu rétt skráðar (talnabreytur eða flokkabreytur). Breytið þeim flokkabreytum sem þið ætlið að nota í factor breytur ef þær eru skráðar sem chr (þið gætuð þurft að koma aftur að þessum lið síðar í verkefninu þegar þið eruð búin að ákveða hvaða breytur þið ætlið að vinna með). Breytið einnig year breytunni í flokkabreytu (factor). 
+
+g)
+Endurskýrið flokkana í country breytunni þannig að nöfnin verði á íslensku. 
+
+ 
+
+Hluti 2 - Myndræn framsetning (35%)
+Síðasti séns til að fá aðstoð við þennan hluta er 28. febrúar.
+
+h)
+Notið viðeigandi myndrit sem sýnir einkunnir í stærðfræði meðal íslenskra nemenda. Lýsið í örfáum orðum því sem þið sjáið á myndinni.
+
+i)
+Notið viðeigandi myndrit sem sýnir einkunnir í stærðfræði eftir löndunum þremur. Lýsið í örfáum orðum því sem þið sjáið á myndinni.
+
+j)
+Nú skuluð þið aftur notað viðeigandi myndrit til að sýna einkunnir nemenda í stærðfræði í löndunum þremur en nú einnig eftir árum. Lýsið í örfáum orðum því sem þið sjáið á myndinni.
+
+Ábenging: notið facet_wrap().
+
+k)
+Notið viðeigandi myndrit til að sýna sambandið á milli árangurs nemenda frá Íslandi í stærðfræði og vísindum. Lýsið í örfáum orðum því sem þið sjáið á myndinni.
+
+l) 
+Notið viðeigandi myndrit til að skoða breyturnar country og mother_educ saman. 
+
+m)
+Veljið ykkur tvær talnabreytur sem ykkur finnst spennandi að skoða saman og búið til viðeigandi myndrit sem sýnir þær. Lýsið í örfáum orðum því sem þið sjáið á myndinni.
+
+n)
+Veljið ykkur talnabreytu og flokkabreytu sem ykkur finnst spennandi að skoða saman og búið til viðeigandi myndrit sem sýnir þær. Lýsið í örfáum orðum því sem þið sjáið á myndinni.
+
+
+Hluti 3 - Töflur og mynd (25%)
+Síðasti séns til að fá aðstoð við þennan hluta er 7. mars.
+
+o)
+Búið til töflu sem sýnir fjölda nemenda eftir löndum og árum.
+
+p)
+Búið til töflu sem sýnir hlutfall svarenda á hverju ári fyrir sig eftir löndum. Það á t.d. að vera hægt að lesa hveru hátt hlutfall svara er frá árinu 2022 í hverju landi fyrir sig osfrv. 
+
+q)
+Búið til töflu sem sýnir meðaleinkunn í stærðfræði, miðgildi stærðfræðieinkunnar og staðalfrávik stærðfræðieinkunnar eftir ári og löndum. Í tölflunni á einnig að koma fram hvað eru margar mælingar í hverjum flokki. Sýnið töfluna í skýrslunni en geymið hana einnig í hlut sem heitir tafla_eink_stae.
+
+r)
+Búið til mynd sem sýnir hvernig meðaleinkunn í stræðfræði hefur þróast í löndunum ykkar þremur í tíma. Notið mismunandi liti fyrir löndin þrjú. 
+Ágending: notið tafla_eink_stae töfluna.
+
+Notkun á gervigreind
+Lýsið í nokkrum orðum hvort og ef já, hvernig, þið notuðuð gervigreind við lausn á þessu verkefni. 

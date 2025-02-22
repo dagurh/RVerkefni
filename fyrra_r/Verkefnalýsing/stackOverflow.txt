@@ -1,0 +1,73 @@
+Hluti 1 - Gagnamöndl (45 %)
+Síðasti séns til að fá aðstoð við þennan hluta er 21. febrúar.
+
+a)
+Lesið gagnasafnið inn í R/RStudio og geymið í hlut sem ber upphafsstafi þeirra sem verkefnið vinna (ef Gréta Halldórsdóttir og Sigurður Karl Jónsson eru að vinna saman skulu þau nefna hlutinn gs).
+
+b)
+Notið filter() skipunina til að velja svör frá starfandi forriturum (sjá MainBranch breytunna, "I am a developer by profession") í fullri vinnu (sjá Employment breytuna, "Employed, full-time"). Yfirskrifið stóra gagnaramman í a) lið.
+
+c)
+Búið til nýja breytu í gagnarammanum ykkar sem inniheldur fjölda ára sem svarendur höfðu kóðað áður en þau fóru að vinna sem forritarar. Er eitthvað athugavert við gildin á þeirri breytu?
+
+d)
+Veljið svör frá fólki sem gefur launin sín upp í Evrum eða Dollurum (USD). Notið aðeins svör frá þessum einstaklingum það sem eftir er verkefnisins (yfirskrifið ramman frá því í b) lið).
+
+e)
+Skoðið CompTotal breytuna. Eru einhverjir augljósir útlagar í breytunni? Ef svo, hvert/hver eru gildin? Fjarlægið þessa auljósu útlaga. Yfirskrifið gamla rammann.
+
+f)
+Búið til nýja breytu sem heitir CompTotalUSD þar sem öll laun eru í dollurum.
+Ábending: Hér gæti verið gott að nota ifelse() skipun.
+
+g)
+Sýnið fjölda svara frá hverju og einu landi frá þeim 10 löndum sem flest svörin koma frá. 
+
+h)
+Veljið forritara frá þremur löndum til að vinna áfram með. Það þurfa að vera a.m.k. 300 svör frá þeim löndum sem þið vinnið með. Yfirskrifið gagnaramman í e) lið með svörum frá þessum þremur löndum. Þið eigið að nota þennan gagnaramma það sem eftir er verkefnisins.
+
+i)
+Kannið hvort að þær breytur sem þið munið nota í verkefninu séu rétt skráðar (talnabreytur eða flokkabreytur). Breytið þeim flokkabreytum sem þið ætlið að nota í factor breytur ef þær eru skráðar sem chr (þið gætuð þurft að koma aftur að þessum lið síðar í verkefninu þegar þið eruð búin að ákveða hvaða breytur þið ætlið að vinna með). 
+
+j)
+Endurskýrið flokkana í EdLevel breytunni þannig að nöfnin verði styttri og á íslensku. Endurskýrið einnig nöfnin á löndunum þannig að þau verði á íslensku.
+
+ 
+
+Hluti 2 - Myndræn framsetning (25%)
+Síðasti séns til að fá aðstoð við þennan hluta er 28. febrúar.
+
+k)
+Notið viðeigandi myndrit sem sýnir árslaun svarenda í dollurum (USD). Lýsið í örfáum orðum því sem þið sjáið á myndinni. Hér gæti verið góð hugmynd að fjarlægja einhver svör. Rökstyðjið af hverju þið ákváðuð að gera það og teiknið sams konar mynd aftur (eftir að þið fjarlægið).
+
+l)
+Notið viðeigandi myndrit sem sýnir árslaun þátttakenda í USD eftir löndunum þremur. Lýsið í örfáum orðum því sem þið sjáið á myndinni.
+
+m)
+Nú skuluð þið aftur notað viðeigandi myndrit til að sýna árslaun þátttakenda eftir löndunum þremur en nú einnig menntun. Lýsið í örfáum orðum því sem þið sjáið á myndinni.
+
+Ábenging: notið facet_wrap().
+
+n)
+Veljið ykkur tvær talnabreytur sem ykkur finnst spennandi að skoða saman og búið til viðeigandi myndrit sem sýnir þær. Lýsið í örfáum orðum því sem þið sjáið á myndinni.
+
+o)
+Veljið ykkur talnabreytu og flokkabreytu sem ykkur finnst spennandi að skoða saman og búið til viðeigandi myndrit sem sýnir þær. Lýsið í örfáum orðum því sem þið sjáið á myndinni.
+
+ 
+
+Hluti 3 - Töflur (20%)
+Síðasti séns til að fá aðstoð við þennan hluta er 7. mars.
+
+p)
+Búið til töflu sem sýnir fjölda svarenda eftir löndum og menntun.
+
+q)
+Búið til töflu sem sýnir hlutfall svarenda á hverju menntunarstigi fyrir sig eftir löndum. Það á t.d. að vera hægt að lesa hveru hátt hlutfall svarenda er með BS gráðu í hverju landi fyrir sig osfrv. 
+
+r)
+Búið til töflu sem sýnir meðalárslaun, miðgildi árslauna og staðalfrávik árslauna eftir menntun og löndum. Í tölflunni á einnig að koma fram hvað eru margar mælingar í hverjum flokki.
+
+
+Notkun á gervigreind
+Lýsið í nokkrum orðum hvort og ef já, hvernig, þið notuðuð gervigreind við lausn á þessu verkefni. 
