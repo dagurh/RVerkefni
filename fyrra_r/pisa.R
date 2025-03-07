@@ -63,10 +63,31 @@ ggplot(d, aes(x = country, y = math, fill = country)) +
 #Noregur stendur sig betur og betur gagnvart hinum löndunum með tímanum
 #En yfir allt fer öllum löndum versnandi (mesti niðurdúrinn frá 2018 til 2022)
 
+#k
 ggplot(island, aes(x = math, y = science)) +
   geom_point(color = "blue", size = 2, alpha = 0.7) +
   geom_smooth(method = "lm", se = FALSE, color = "red") +
   labs(title = "Samband milli stærðfræðieinkunna og vísindaeinkunna",
        x = "Stærðfræðieinkunn",
        y = "Vísindaeinkunn") +
+  theme_minimal()
+#myndritið sýnir að það er samræmi milli árangurs í stærfræði og vísindum
+
+
+#l
+ggplot(d, aes(x = country, fill = mother_educ)) +
+  geom_bar(position = "dodge") +
+  labs(title = "Menntun móðir nemenda eftir löndum",
+       x = "Lönd",
+       y = "Fjöldi nemenda",
+       fill = "Menntun móðir nemanda") +
+  theme_minimal()
+#Myndritið ber saman fjölda nemenda eftir menntunarstig mæðra í hverju landi
+
+#m
+ggplot(d, aes(x = math, y = read)) +
+  geom_point(color = "blue", alpha = 0.7) +
+  labs(title = "Samband milli stærðfræðieinkunna og lestrareinkunna",
+       x = "Stærðfræðieinkunn",
+       y = "Lestrareinkunn") +
   theme_minimal()
